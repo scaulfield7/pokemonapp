@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+/* Go button */
+.btn-go { 
+  color: #ffffff; 
+  background-color: #E3340D; 
+  border-color: #A61E00; 
+} 
+ 
+.btn-go:hover, 
+.btn-go:focus, 
+.btn-go:active, 
+.btn-go.active, 
+.open .dropdown-toggle.btn-go { 
+  color: #ffffff; 
+  background-color: #A61E00; 
+  border-color: #A61E00; 
+} 
+ 
+.btn-go:active, 
+.btn-go.active, 
+.open .dropdown-toggle.btn-go { 
+  background-image: none; 
+} 
+ 
+.btn-go.disabled, 
+.btn-go[disabled], 
+fieldset[disabled] .btn-go, 
+.btn-go.disabled:hover, 
+.btn-go[disabled]:hover, 
+fieldset[disabled] .btn-go:hover, 
+.btn-go.disabled:focus, 
+.btn-go[disabled]:focus, 
+fieldset[disabled] .btn-go:focus, 
+.btn-go.disabled:active, 
+.btn-go[disabled]:active, 
+fieldset[disabled] .btn-go:active, 
+.btn-go.disabled.active, 
+.btn-go[disabled].active, 
+fieldset[disabled] .btn-go.active { 
+  background-color: #E3340D; 
+  border-color: #A61E00; 
+} 
+ 
+.btn-go .badge { 
+  color: #E3340D; 
+  background-color: #ffffff; 
+}
+
+/* Prevent button background from being transparent */
+.btn {
+    background-color: #E3340D !important;
+    border: 1px solid !important;
+}
