@@ -27,7 +27,7 @@ const Home = () => {
 
     	</div>
       	<div class="col 12 col-lg-6">
-      	<a class="btn btn-block btn-danger" href="/pokemon" role="button">
+      	<a class="btn btn-block btn-danger" href="/pokemonlist" role="button">
       		Go!
       	</a>
       	</div>
