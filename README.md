@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+I was unable to pull information for each individual Pokémon within the 48-hour project window, so I hard-coded in data for the first 5 Pokémon in the list.
+
 ## Available Scripts
 
 In the project directory:
