@@ -13,7 +13,7 @@
     "graphql": "^14.5.8",
     "graphql-tag": "^2.10.1",
     "graphql-tools": "^4.0.5",
-    "jquery": "^3.4.1",
+    "jquery": "^3.7.1",
     "pokedex-promise-v2": "^4.2.1",
     "popper.js": "^1.15.0",
     "react": "^16.10.0",
