@@ -1,4 +1,5 @@
-var Pokedex = require('pokedex-promise-v2');
+import Pokedex from 'pokedex-promise-v2';
+
 var options = {
   protocol: 'https',
   hostName: 'localhost:443',
@@ -6,8 +7,8 @@ var options = {
   cacheLimit: 100 * 1000, // 100s
   timeout: 5 * 1000 // 5s
 }
-var P = new Pokedex(options);
 
+const P = new Pokedex();
 
   P.getPokemonByName(1, function(response, error) { // with callback
       if(!error) {
@@ -16,3 +17,5 @@ var P = new Pokedex(options);
         console.log(error)
       }
     });
+
+export default P;
