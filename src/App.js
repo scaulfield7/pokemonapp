@@ -1,4 +1,3 @@
-// Importing Bootstrap elements
 import { Nav } from 'react-bootstrap';
 import { Navbar } from 'react-bootstrap';
 import Pokemon from './pokemon';
