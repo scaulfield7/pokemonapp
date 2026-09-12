@@ -7,10 +7,7 @@ let name = "";
 
 class PokemonList extends Component {
   render() {
-    console.log("this.props");
-    console.log(this.props);
     return (
-
       <div className="container">
         <div >
           <h1><a href="http://localhost:3000/pokemonlist">Pokémon List</a></h1>
