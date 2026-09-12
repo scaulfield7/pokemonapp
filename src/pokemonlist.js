@@ -12,17 +12,17 @@ class PokemonList extends Component {
     return (
 
       <div className="container">
-      <div >
-        <h1><a href="http://localhost:3000/pokemonlist">Pokémon List</a></h1>
-        
-        {data.results.map((postDetail, index)=>{
-          url = postDetail.url;
-          name = postDetail.name;
-          pokemonId = url.substr(34).slice(0, -1);
+        <div >
+          <h1><a href="http://localhost:3000/pokemonlist">Pokémon List</a></h1>
 
-          return <h4><a href={'pokemonlist/pokemon/'+pokemonId}>{postDetail.name}</a></h4>
-        })}
-      </div>
+          {data.results.map((postDetail, index) => {
+            url = postDetail.url;
+            name = postDetail.name;
+            pokemonId = url.substr(34).slice(0, -1);
+
+            return <h4><a href={'pokemonlist/pokemon/' + pokemonId}>{postDetail.name}</a></h4>
+          })}
+        </div>
       </div>
     )
   }

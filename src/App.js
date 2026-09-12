@@ -16,50 +16,50 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-    <div className="App">
-        <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="http://localhost:3000">PokéApp</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="/pokemonlist">Pokemon List</Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
+        <div className="App">
+          <Navbar bg="light" expand="lg">
+            <Navbar.Brand href="http://localhost:3000">PokéApp</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="mr-auto">
+                <Nav.Link href="/pokemonlist">Pokemon List</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
 
-  <Route exact path='/' component={Home} />
-  <Route path='/pokemonlist' component={PokemonList} />
-  <Route path='/pokemonlist/pokemon' component={Pokemon} />
-  <Route path="/pokemon2/:id" render={
-    props => <Pokemon {
-      ...props
-    } />
-  } />
-   <Route path="/pokemonlist/pokemon/:id" component={Pokemon} />
-   <Route path="/pokemonlist/pokemon/1" component={Pokemon1} />
-   <Route path="/pokemonlist/pokemon/2" component={Pokemon2} />
-   <Route path="/pokemonlist/pokemon/3" component={Pokemon3} />
-   <Route path="/pokemonlist/pokemon/4" component={Pokemon4} />
-   <Route path="/pokemonlist/pokemon/5" component={Pokemon5} />
-   <Route path="/pokemonlist/pokemon/6" component={Pokemon} />
-   <Route path="/pokemonlist/pokemon/7" component={Pokemon} />
-   <Route path="/pokemonlist/pokemon/8" component={Pokemon} />
-   <Route path="/pokemonlist/pokemon/9" component={Pokemon} />
-   <Route path="/pokemonlist/pokemon/10" component={Pokemon} />
-  <Route exact path="/404" component={PageNotFound} />
+          <Route exact path='/' component={Home} />
+          <Route path='/pokemonlist' component={PokemonList} />
+          <Route path='/pokemonlist/pokemon' component={Pokemon} />
+          <Route path="/pokemon2/:id" render={
+            props => <Pokemon {
+              ...props
+            } />
+          } />
+          <Route path="/pokemonlist/pokemon/:id" component={Pokemon} />
+          <Route path="/pokemonlist/pokemon/1" component={Pokemon1} />
+          <Route path="/pokemonlist/pokemon/2" component={Pokemon2} />
+          <Route path="/pokemonlist/pokemon/3" component={Pokemon3} />
+          <Route path="/pokemonlist/pokemon/4" component={Pokemon4} />
+          <Route path="/pokemonlist/pokemon/5" component={Pokemon5} />
+          <Route path="/pokemonlist/pokemon/6" component={Pokemon} />
+          <Route path="/pokemonlist/pokemon/7" component={Pokemon} />
+          <Route path="/pokemonlist/pokemon/8" component={Pokemon} />
+          <Route path="/pokemonlist/pokemon/9" component={Pokemon} />
+          <Route path="/pokemonlist/pokemon/10" component={Pokemon} />
+          <Route exact path="/404" component={PageNotFound} />
 
-  <footer class ="text-center align-bottom">
-    <br />
-    <br />
-    <br />
-      A project by <a target="blank" href="https://github.com/sarahcaulfield/">Sarah Caulfield</a>
-    <br />
-  </footer>
+          <footer class="text-center align-bottom">
+            <br />
+            <br />
+            <br />
+            A project by <a target="blank" href="https://github.com/sarahcaulfield/">Sarah Caulfield</a>
+            <br />
+          </footer>
 
-      <header className="App-header">
+          <header className="App-header">
 
-      </header>
-    </div>
+          </header>
+        </div>
       </Switch>
     </BrowserRouter>
   );

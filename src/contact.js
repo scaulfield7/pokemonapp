@@ -10,7 +10,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
-      	<div ref={this.pokemonRef} />
+        <div ref={this.pokemonRef} />
         <input ref={this.pokemonRef} />
       </div>
     )

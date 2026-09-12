@@ -1,11 +1,9 @@
-.App {
-  
-}
+.App {}
 
 .App-link {
   color: #09d3ac;
 }
 
-body{
-    overflow-x:hidden;
+body {
+  overflow-x: hidden;
 }
