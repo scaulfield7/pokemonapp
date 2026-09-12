@@ -1,10 +1,7 @@
-import React, { Component } from 'react';
-import pokeapi from './pokeapi';
+import { Component } from 'react';
 import data from './data/data.json';
 //import { graphql } from "react-apollo";
 //import { gql };
-
-import { Redirect } from "react-router-dom";
 //import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 
 let url = "";
@@ -34,7 +31,6 @@ const Pokemon = ({ data }) => {
   );
 };
 
-
 const pokemonQuery = gql`
   query($id: Int!) {
     getPokemon(id: $id) {
@@ -43,7 +39,6 @@ const pokemonQuery = gql`
     }
   }
 `;
-
 
 export default graphql(pokemonQuery, {
   skip: props => !parseInt(props.match.params.id),
@@ -69,7 +64,6 @@ const components = {
 //    const SpecificPokemon = components[props.pokemonVariable];
 //    return <SpecificPokemon pokemon={props.pokemon} />;
 //}
-
 
 class PokemonList extends Component {
   render() {
@@ -120,4 +114,3 @@ class PokemonList extends Component {
 }
 
 export default PokemonList
-

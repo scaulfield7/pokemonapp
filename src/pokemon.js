@@ -1,22 +1,15 @@
-import React, { Component } from 'react';
-import pokeapi from './pokeapi';
-import data from './data/data.json';
-import { Redirect } from "react-router-dom";
-
+import { Component } from 'react';
 
 class Pokemon extends Component {
   render() {
     console.log("this.props");
     console.log(this.props);
     return (
-
-
       <div className="container">
 
       <div>
       </div>
       </div>
-
         //    </Switch>
     //</BrowserRouter>
     )
@@ -24,4 +17,3 @@ class Pokemon extends Component {
 }
 
 export default Pokemon
-

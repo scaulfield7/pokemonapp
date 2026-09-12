@@ -1,21 +1,14 @@
-import React, { Component } from 'react';
 // import logo from './logo.svg';
 //import logo from 'pokédex_logo.svg;
 // Importing Bootstrap elements
 import { Nav } from 'react-bootstrap';
 import { Navbar } from 'react-bootstrap';
-import { NavDropdown } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import { FormControl } from 'react-bootstrap';
-import { NavItem } from 'react-bootstrap';
 import Pokemon from './pokemon';
 import PokemonList from './pokemonlist';
-import { BrowserRouter, Route, Redirect, Switch, withRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './home';
 import PageNotFound from "./pagenotfound";
 import './App.css';
-import ReactDOM from 'react-dom'
 import Pokemon1 from './pokemon1';
 import Pokemon2 from './pokemon2';
 import Pokemon3 from './pokemon3';
@@ -76,9 +69,6 @@ function App() {
   </Navbar.Collapse>
 </Navbar>
 
-
-
-
   <Route exact path='/' component={Home} />
   <Route path='/pokemonlist' component={PokemonList} />
   <Route path='/pokemonlist/pokemon' component={Pokemon} />
@@ -98,11 +88,7 @@ function App() {
    <Route path="/pokemonlist/pokemon/8" component={Pokemon} />
    <Route path="/pokemonlist/pokemon/9" component={Pokemon} />
    <Route path="/pokemonlist/pokemon/10" component={Pokemon} />
-
-
   <Route exact path="/404" component={PageNotFound} />
-
-
 
   <footer class ="text-center align-bottom">
     <br />
@@ -114,10 +100,7 @@ function App() {
 
       <header className="App-header">
 
-
-
       </header>
-
     </div>
       </Switch>
     </BrowserRouter>
