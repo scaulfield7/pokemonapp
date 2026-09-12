@@ -16,7 +16,7 @@ class PokemonList extends Component {
         
         {data.results.map((postDetail, index)=>{
           url = postDetail.url;
-          name = postDetail.name;
+          PokemonList.name = postDetail.name;
           pokemonId = url.substr(34).slice(0, -1);
 
           return <h4><a href={'pokemonlist/pokemon/'+pokemonId}>{postDetail.name}</a></h4>
