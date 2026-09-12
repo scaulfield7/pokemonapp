@@ -1,5 +1,4 @@
 // Pokedex API setup
-
 var Pokedex = require('pokedex-promise-v2');
 var P = new Pokedex();
 let pokemonList = [];
@@ -24,7 +23,7 @@ for (let i = 1; i <= totalNumberOfPokemon; i++) {
       console.log("List within loop: " + pokemonList);
     });
 
-} // end for loop
+}
 console.log("Outside for loop...");
 console.log(pokemonList);
 

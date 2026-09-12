@@ -4,7 +4,6 @@ class Contact extends React.Component {
   constructor(props) {
     super(props)
 
-    // Create the ref
     this.pokemonRef = React.createRef()
   }
 
