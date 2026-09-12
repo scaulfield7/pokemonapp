@@ -1,4 +1,4 @@
-import React, { Component, Components } from 'react';
+import React, { Component } from 'react';
 import pokeapi from './pokeapi';
 import data from './data/data.json';
 import { Redirect } from "react-router-dom";

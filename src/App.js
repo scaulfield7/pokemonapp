@@ -9,7 +9,6 @@ import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { FormControl } from 'react-bootstrap';
 import { NavItem } from 'react-bootstrap';
-import { MenuItem } from 'react-bootstrap';
 import Pokemon from './pokemon';
 import PokemonList from './pokemonlist';
 import { BrowserRouter, Route, Redirect, Switch, withRouter } from 'react-router-dom';
