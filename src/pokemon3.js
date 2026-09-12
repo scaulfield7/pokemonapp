@@ -1,7 +1,4 @@
-import React, { Component } from 'react';
-import pokeapi from './pokeapi';
-import data from './data/data.json';
-import { Redirect } from "react-router-dom";
+import { Component } from 'react';
 
 let pokemonId = 3;
 let name = "Venusaur";
@@ -17,4 +14,3 @@ class Pokemon3 extends Component {
 }
 
 export default Pokemon3
-
