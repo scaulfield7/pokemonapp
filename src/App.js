@@ -12,14 +12,6 @@ import Pokemon3 from './pokemon3';
 import Pokemon4 from './pokemon4';
 import Pokemon5 from './pokemon5';
 
-let pokemonList = {PokemonList};
-
-const Page = ({ match, loading}) => {
-  if (loading) return <div>Loading...</div>;
-  return <div>You're on the Pokémon page {match.params.id}</div>;
-};
-const SelectPage = () => <div>Select a Pokémon</div>;
-
 function App() {
   return (
     <BrowserRouter>

@@ -3,11 +3,6 @@ import data from './data/data.json';
 
 let url = "";
 let pokemonId = "";
-let name = "";
-
-let PokemonName;
-let PokemonId;
-let pokemonVariable;
 
 class PokemonList extends Component {
   render() {
