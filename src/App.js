@@ -1,5 +1,3 @@
-// import logo from './logo.svg';
-//import logo from 'pokédex_logo.svg;
 // Importing Bootstrap elements
 import { Nav } from 'react-bootstrap';
 import { Navbar } from 'react-bootstrap';
@@ -14,37 +12,7 @@ import Pokemon2 from './pokemon2';
 import Pokemon3 from './pokemon3';
 import Pokemon4 from './pokemon4';
 import Pokemon5 from './pokemon5';
-//import { library } from '@fortawesome/fontawesome-svg-core'
-//import { fab } from '@fortawesome/free-brands-svg-icons'
-//import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
- 
-//library.add(fab, faCheckSquare, faCoffee)
 
-//import Test from './test';
-
-/*
-const NoMatch = ({ location }) => (
-  <div>
-      <div className="container" class ="text-center">
-  <br />
-    <h2>Uh oh! That wasn't very effective...</h2>
-      <div class="row">
-        <div class="col 4">
-
-        </div>
-        <div class="col 4">
-      <img class="img-responsive" src="images/psyduck_page_not_found.jpg" />
-        </div>
-        <div class="col 4">
-        
-        </div>
-      </div>
-    <h4><code>localhost:3000{location.pathname}</code> was not found.</h4>
-    <h5><a href="http://localhost:3000">Click here</a> to return to the home page.</h5>
-  </div>
-  </div>
-)
-*/
 let pokemonList = {PokemonList};
 
 const Page = ({ match, loading}) => {
@@ -52,7 +20,6 @@ const Page = ({ match, loading}) => {
   return <div>You're on the Pokémon page {match.params.id}</div>;
 };
 const SelectPage = () => <div>Select a Pokémon</div>;
-
 
 function App() {
   return (

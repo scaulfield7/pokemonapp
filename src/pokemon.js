@@ -10,8 +10,6 @@ class Pokemon extends Component {
       <div>
       </div>
       </div>
-        //    </Switch>
-    //</BrowserRouter>
     )
   }
 }
