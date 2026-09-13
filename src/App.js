@@ -52,7 +52,7 @@ function App() {
             <br />
             <br />
             <br />
-            A project by <a target="blank" href="https://github.com/sarahcaulfield/">Sarah Caulfield</a>
+            A project by <a target="blank" href="https://github.com/scaulfield7/">Sarah Caulfield</a>
             <br />
           </footer>
 
