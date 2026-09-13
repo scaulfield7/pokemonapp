@@ -2,7 +2,7 @@
   "name": "pokeapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sarahcaulfield.github.io/pokeapp/",
+  "homepage": "https://scaulfield7.github.io/pokeapp/",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.5",
     "apollo-server-express": "^2.14.2",
